@@ -11,6 +11,10 @@ package edu.nmsu.cs.scoring;
  * @author Jon Cook, Ph.D.
  ***/
 
+
+//There was three lines that refused to turn green no matter what I did :/
+
+
 public class RacingScore2
 {
 
