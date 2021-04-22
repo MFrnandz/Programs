@@ -39,9 +39,9 @@ public class RacingScore1
 	{
 		int s;
 		if (score1 < score2)
-			s = score1;
+			s = score1;//Changed this to be score1
 		else
-			s = score2;
+			s = score2;//This is score2 as the else statement
 		if (s > score3)
 			s = score3;
 		s = (score1 + score2 + score3) - s;
@@ -65,10 +65,6 @@ public class RacingScore1
 		catch (Exception e)
 		{
 			System.err.println("Error: arguments must be integers!");
-			return;
-		}
-		if(s1 < 0 || s1 > 50 || s2 < 0 || s2 > 50 || s3 < 0 || s3 > 50){
-			System.err.println("Error: scores must be between 0 and 50!");
 			return;
 		}
 		RacingScore1 score = new RacingScore1();

@@ -38,7 +38,7 @@ public class RacingScore2
 	{
 		int s, s1, s2;
 		if (score1 < score2 && score1 < score3)
-		{
+		{//Changed this to save the right values
 			s1 = score2;
 			s2 = score3;
 		}
